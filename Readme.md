@@ -1,7 +1,7 @@
-Client & Appointment Management System
+#Client & Appointment Management System
 A Java‑based console application for managing users, services, appointments, and payments. The system supports multiple roles (Client, Advisor, CSR) and demonstrates clean backend architecture, database integration, and structured software design.
 
-Features
+##Features
 User registration & login (Client, Advisor, CSR)
 
 Role‑based dashboards
@@ -16,7 +16,7 @@ Advisor booking updates
 
 CSR management tools
 
-Technologies Used
+##Technologies Used
 Java (OOP, JDBC)
 
 PostgreSQL
@@ -27,7 +27,7 @@ IntelliJ IDEA
 
 UML Documentation (CRC Cards, Sequence & Communication Diagrams, Class Diagram)
 
-Project Structure
+##Project Structure
 src/        # Java source code  
 database/   # SQL schema + sample data  
 docs/       # UML & design documentation PDF  
@@ -40,7 +40,7 @@ Run the SQL script in database/create_tables.sql
 
 Insert sample services using sample_data.sql
 
-Running the Project
+##Running the Project
 Update your PostgreSQL username/password in DbConnection.java
 
 Build the project using Maven or IntelliJ
